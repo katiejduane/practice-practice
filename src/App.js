@@ -2,6 +2,10 @@ import React from 'react';
 import CounterClass from './CounterClass';
 import CounterHooks from './CounterHooks';
 import Toggler from './Toggler';
+import SimpleFormHooks from './SimpleFormHooks';
+import SimpleFormInputHooks from './SimpleFormInputHook';
+import Clicker from './Clicker';
+import SWMovies from './StarWarsMovies';
 import './App.css';
 
 function App() {
@@ -11,6 +15,10 @@ function App() {
         <CounterClass />
         <CounterHooks />
         <Toggler />
+        <SimpleFormHooks />
+        <SimpleFormInputHooks />
+        <Clicker />
+        <SWMovies />
       </header>
     </div>
   );
